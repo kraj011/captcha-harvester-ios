@@ -1,15 +1,15 @@
 {
   "name": "captcha-harvester-ios",
   "version": "0.1.0",
-  "summary": "A short description of captcha-harvester-ios.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ReCaptcha harvester for iOS.",
+  "description": "captcha-harvester-ios is a reCaptcha harvester for iOS allowing you to harvest recaptcha tokens for a specific domain and sitekey. You can access these tokens and use them in your own project.",
   "homepage": "https://github.com/kraj011/captcha-harvester-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "kraj011": "davidkrajewski@yahoo.com"
+    "David Krajewski": "davidkrajewski@yahoo.com"
   },
   "source": {
     "git": "https://github.com/kraj011/captcha-harvester-ios.git",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "captcha-harvester-ios/Classes/**/*"
+  "swift_version": "3.2",
+  "source_files": "captcha-harvester-ios/Classes/**/*",
+  "frameworks": "Webkit"
 }
