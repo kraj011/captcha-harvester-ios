@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27108A70CDCD7020D63BA735192D6DFE /* captcha-harvester-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC1BCF0F58764B64E744F1144CB02C /* captcha-harvester-ios-dummy.m */; };
+		51C55BD8E0BC9B7F8F7D46ECB9A20525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5280F90B19BC3443FF654C5F2512E97C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */; };
+		69241D25FBD5451BD970B78EB84F46BA /* Pods-captcha-harvester-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0D6D11E371160D8758B9A42475B4D4 /* Pods-captcha-harvester-ios_Tests-dummy.m */; };
+		6F295744A0C787A16CFAF9CFE1697D05 /* Pods-captcha-harvester-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377180BD94E59BBF70A52D57DE9D70D /* Pods-captcha-harvester-ios_Example-dummy.m */; };
+		7896ABFCFD83DB61DF2980BD8B624C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8BA3FAC6C23F1B7041F23A03696437A /* captcha-harvester-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5202C68FED03C76C29F089D8E4FF75 /* captcha-harvester-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4F639464179CA33F6990C206760744 /* Pods-captcha-harvester-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC04A8FF7269074046225022350159AD /* Pods-captcha-harvester-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C4E0A7D37E180E7A3976135694028E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E0F4C2D717B63B8410AE58D4E76A09B5 /* Pods-captcha-harvester-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A1DE46B70BE331146AF36C01B7F09E /* Pods-captcha-harvester-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F00C03684D9C81A0B76DD5C71B80541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01152ECA105D2F93BF7376B54809D3A4;
+			remoteInfo = "captcha-harvester-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001C04B0412CEA37190D6EE298D565D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CC1BCF0F58764B64E744F1144CB02C /* captcha-harvester-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "captcha-harvester-ios-dummy.m"; sourceTree = "<group>"; };
+		1D5202C68FED03C76C29F089D8E4FF75 /* captcha-harvester-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "captcha-harvester-ios-umbrella.h"; sourceTree = "<group>"; };
+		2186E19E8F62D1A853ACE6D3E41652F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3377180BD94E59BBF70A52D57DE9D70D /* Pods-captcha-harvester-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-captcha-harvester-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		3D72DAB7129AFEF55A4125EB5E74DAA8 /* captcha-harvester-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "captcha-harvester-ios.modulemap"; sourceTree = "<group>"; };
+		42A87F12D9DA4E0195A2F32A7A4D002D /* Pods-captcha-harvester-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		43F2FB409F76D15F81CB4A6A3814E8C7 /* captcha_harvester_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = captcha_harvester_ios.framework; path = "captcha-harvester-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		444A03D05E16A898D86372B326FEDD1D /* captcha-harvester-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "captcha-harvester-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "captcha-harvester-ios.xcconfig"; sourceTree = "<group>"; };
+		4873BAA8E192D508069486079EFDCB71 /* Pods-captcha-harvester-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F805D59454AEEDA098DA15C837C32E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56943AF93C35294BC5E870CDC7ADAEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		589CCF27223B2217AF9B6EE0871474F5 /* captcha-harvester-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "captcha-harvester-ios-prefix.pch"; sourceTree = "<group>"; };
+		620EDAC779FA95EAF0ED653BF4A5E590 /* Pods-captcha-harvester-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		622C6A7D9908A64C33EE91E887242DBB /* Pods-captcha-harvester-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		683F4C178497F5B8896BE6D76D2341CD /* Pods_captcha_harvester_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_captcha_harvester_ios_Example.framework; path = "Pods-captcha-harvester-ios_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDC05A51D7BBC41BE58F2A3582C2646 /* Pods-captcha-harvester-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Tests-resources.sh"; sourceTree = "<group>"; };
+		7B305C0FE8AC8A0715DF2E1D6A92316D /* Pods-captcha-harvester-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-captcha-harvester-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		929F5AEF1AA01AB5A5B3F481F001029E /* Pods-captcha-harvester-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-captcha-harvester-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5A470DB95FA5DD50121BDD07B188B7 /* Pods-captcha-harvester-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A29CA7D7C3DA3820AB1B7AC55526A3BD /* Pods-captcha-harvester-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A9A1DE46B70BE331146AF36C01B7F09E /* Pods-captcha-harvester-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-captcha-harvester-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABADEEE0C497ED90EDD8ABF3D7A51A0A /* Pods-captcha-harvester-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-captcha-harvester-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAA70AD8E4391CB68C0700DC33D8964B /* Pods-captcha-harvester-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-captcha-harvester-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		BC04A8FF7269074046225022350159AD /* Pods-captcha-harvester-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-captcha-harvester-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		C030BC2062816EB22D069419C99E2528 /* Pods_captcha_harvester_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_captcha_harvester_ios_Tests.framework; path = "Pods-captcha-harvester-ios_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C375E07D67212536275B71114AE049F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "captcha-harvester-ios/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		DA9D2DB45F5DDD9EFCEE20F41DDA100C /* Pods-captcha-harvester-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-captcha-harvester-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF0D6D11E371160D8758B9A42475B4D4 /* Pods-captcha-harvester-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-captcha-harvester-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		E074D9DCAE2A7B7263542D411EEEB872 /* Pods-captcha-harvester-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Example-resources.sh"; sourceTree = "<group>"; };
+		F1D5EBAC9260798A6131810CE55F8C8C /* Pods-captcha-harvester-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-captcha-harvester-ios_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B77945B9059917651D4E2EE388F7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7896ABFCFD83DB61DF2980BD8B624C4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45854372AD99760C31CB1BA13BFC38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C4E0A7D37E180E7A3976135694028E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5E2B5D25AFE224C2CDAADF8A3F78DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C55BD8E0BC9B7F8F7D46ECB9A20525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CC506568B79B6CE53E8405A9CCE020 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D72DAB7129AFEF55A4125EB5E74DAA8 /* captcha-harvester-ios.modulemap */,
+				45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */,
+				19CC1BCF0F58764B64E744F1144CB02C /* captcha-harvester-ios-dummy.m */,
+				589CCF27223B2217AF9B6EE0871474F5 /* captcha-harvester-ios-prefix.pch */,
+				1D5202C68FED03C76C29F089D8E4FF75 /* captcha-harvester-ios-umbrella.h */,
+				4F805D59454AEEDA098DA15C837C32E8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/captcha-harvester-ios";
+			sourceTree = "<group>";
+		};
+		58B729E6A734BA2CB5B963E92D4B29F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F2FB409F76D15F81CB4A6A3814E8C7 /* captcha_harvester_ios.framework */,
+				683F4C178497F5B8896BE6D76D2341CD /* Pods_captcha_harvester_ios_Example.framework */,
+				C030BC2062816EB22D069419C99E2528 /* Pods_captcha_harvester_ios_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE611F6E11417C0EDC8B16558DE82B3 /* Pods-captcha-harvester-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C375E07D67212536275B71114AE049F8 /* Info.plist */,
+				BAA70AD8E4391CB68C0700DC33D8964B /* Pods-captcha-harvester-ios_Tests.modulemap */,
+				ABADEEE0C497ED90EDD8ABF3D7A51A0A /* Pods-captcha-harvester-ios_Tests-acknowledgements.markdown */,
+				929F5AEF1AA01AB5A5B3F481F001029E /* Pods-captcha-harvester-ios_Tests-acknowledgements.plist */,
+				DF0D6D11E371160D8758B9A42475B4D4 /* Pods-captcha-harvester-ios_Tests-dummy.m */,
+				A29CA7D7C3DA3820AB1B7AC55526A3BD /* Pods-captcha-harvester-ios_Tests-frameworks.sh */,
+				6EDC05A51D7BBC41BE58F2A3582C2646 /* Pods-captcha-harvester-ios_Tests-resources.sh */,
+				A9A1DE46B70BE331146AF36C01B7F09E /* Pods-captcha-harvester-ios_Tests-umbrella.h */,
+				9D5A470DB95FA5DD50121BDD07B188B7 /* Pods-captcha-harvester-ios_Tests.debug.xcconfig */,
+				4873BAA8E192D508069486079EFDCB71 /* Pods-captcha-harvester-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-captcha-harvester-ios_Tests";
+			path = "Target Support Files/Pods-captcha-harvester-ios_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB966F9B162E54156C9A025948A6A206 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				58B729E6A734BA2CB5B963E92D4B29F0 /* Products */,
+				E1FA48A4D05CEB0CEAEDA8E62BCE6E95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92820FF080037928EB3792DACEE5A8CB /* captcha-harvester-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */,
+				DEB6AB7A9581CA7B9AC469F2381AC9A5 /* Pod */,
+				17CC506568B79B6CE53E8405A9CCE020 /* Support Files */,
+			);
+			name = "captcha-harvester-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2CC264E47F5D904F7D042B383D9151 /* Pods-captcha-harvester-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				001C04B0412CEA37190D6EE298D565D7 /* Info.plist */,
+				F1D5EBAC9260798A6131810CE55F8C8C /* Pods-captcha-harvester-ios_Example.modulemap */,
+				7B305C0FE8AC8A0715DF2E1D6A92316D /* Pods-captcha-harvester-ios_Example-acknowledgements.markdown */,
+				DA9D2DB45F5DDD9EFCEE20F41DDA100C /* Pods-captcha-harvester-ios_Example-acknowledgements.plist */,
+				3377180BD94E59BBF70A52D57DE9D70D /* Pods-captcha-harvester-ios_Example-dummy.m */,
+				622C6A7D9908A64C33EE91E887242DBB /* Pods-captcha-harvester-ios_Example-frameworks.sh */,
+				E074D9DCAE2A7B7263542D411EEEB872 /* Pods-captcha-harvester-ios_Example-resources.sh */,
+				BC04A8FF7269074046225022350159AD /* Pods-captcha-harvester-ios_Example-umbrella.h */,
+				620EDAC779FA95EAF0ED653BF4A5E590 /* Pods-captcha-harvester-ios_Example.debug.xcconfig */,
+				42A87F12D9DA4E0195A2F32A7A4D002D /* Pods-captcha-harvester-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-captcha-harvester-ios_Example";
+			path = "Target Support Files/Pods-captcha-harvester-ios_Example";
+			sourceTree = "<group>";
+		};
+		CB966F9B162E54156C9A025948A6A206 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92820FF080037928EB3792DACEE5A8CB /* captcha-harvester-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEB6AB7A9581CA7B9AC469F2381AC9A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				444A03D05E16A898D86372B326FEDD1D /* captcha-harvester-ios.podspec */,
+				56943AF93C35294BC5E870CDC7ADAEFB /* LICENSE */,
+				2186E19E8F62D1A853ACE6D3E41652F7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E1FA48A4D05CEB0CEAEDA8E62BCE6E95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF2CC264E47F5D904F7D042B383D9151 /* Pods-captcha-harvester-ios_Example */,
+				6EE611F6E11417C0EDC8B16558DE82B3 /* Pods-captcha-harvester-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EA740C5E1A99298A0FBCBD514B57AA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BA3FAC6C23F1B7041F23A03696437A /* captcha-harvester-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C813DEBD8B97CF7F690435476620E2C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4F639464179CA33F6990C206760744 /* Pods-captcha-harvester-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1652A831798C0009797ACA35E9A226 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F4C2D717B63B8410AE58D4E76A09B5 /* Pods-captcha-harvester-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01152ECA105D2F93BF7376B54809D3A4 /* captcha-harvester-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DE6D1736DD4AB42B885DF8C8532C3B /* Build configuration list for PBXNativeTarget "captcha-harvester-ios" */;
+			buildPhases = (
+				58E06B143D30FB9EA7FB7D226B579D5C /* Sources */,
+				04B77945B9059917651D4E2EE388F7AB /* Frameworks */,
+				0EA740C5E1A99298A0FBCBD514B57AA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "captcha-harvester-ios";
+			productName = "captcha-harvester-ios";
+			productReference = 43F2FB409F76D15F81CB4A6A3814E8C7 /* captcha_harvester_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		526B7470E8084742862E2B04CC789AF4 /* Pods-captcha-harvester-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5907220E85B6C6ED686DDFB0B702509 /* Build configuration list for PBXNativeTarget "Pods-captcha-harvester-ios_Tests" */;
+			buildPhases = (
+				86A601CE864219A3A1057B69FDB88DC3 /* Sources */,
+				AD5E2B5D25AFE224C2CDAADF8A3F78DF /* Frameworks */,
+				FF1652A831798C0009797ACA35E9A226 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-captcha-harvester-ios_Tests";
+			productName = "Pods-captcha-harvester-ios_Tests";
+			productReference = C030BC2062816EB22D069419C99E2528 /* Pods_captcha_harvester_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C00AA5C61CFEA94196EE613323A58987 /* Pods-captcha-harvester-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD82F28592C982A3E8F1EC83752111 /* Build configuration list for PBXNativeTarget "Pods-captcha-harvester-ios_Example" */;
+			buildPhases = (
+				CD1ED8951BE48C4D669FE91DC5872459 /* Sources */,
+				A45854372AD99760C31CB1BA13BFC38A /* Frameworks */,
+				C813DEBD8B97CF7F690435476620E2C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDD51559AF8DFD7B85028B78E81263B /* PBXTargetDependency */,
+			);
+			name = "Pods-captcha-harvester-ios_Example";
+			productName = "Pods-captcha-harvester-ios_Example";
+			productReference = 683F4C178497F5B8896BE6D76D2341CD /* Pods_captcha_harvester_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58B729E6A734BA2CB5B963E92D4B29F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01152ECA105D2F93BF7376B54809D3A4 /* captcha-harvester-ios */,
+				C00AA5C61CFEA94196EE613323A58987 /* Pods-captcha-harvester-ios_Example */,
+				526B7470E8084742862E2B04CC789AF4 /* Pods-captcha-harvester-ios_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E06B143D30FB9EA7FB7D226B579D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27108A70CDCD7020D63BA735192D6DFE /* captcha-harvester-ios-dummy.m in Sources */,
+				5280F90B19BC3443FF654C5F2512E97C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A601CE864219A3A1057B69FDB88DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69241D25FBD5451BD970B78EB84F46BA /* Pods-captcha-harvester-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1ED8951BE48C4D669FE91DC5872459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F295744A0C787A16CFAF9CFE1697D05 /* Pods-captcha-harvester-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDD51559AF8DFD7B85028B78E81263B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "captcha-harvester-ios";
+			target = 01152ECA105D2F93BF7376B54809D3A4 /* captcha-harvester-ios */;
+			targetProxy = 5F00C03684D9C81A0B76DD5C71B80541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02ABD44867E8D254FDF8350FFE5E5B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5A470DB95FA5DD50121BDD07B188B7 /* Pods-captcha-harvester-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-captcha-harvester-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-captcha-harvester-ios_Tests/Pods-captcha-harvester-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_captcha_harvester_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E36F7242DB778870EB9579125C25670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/captcha-harvester-ios/captcha-harvester-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/captcha-harvester-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/captcha-harvester-ios/captcha-harvester-ios.modulemap";
+				PRODUCT_NAME = captcha_harvester_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74B42A9B7B683D5488C328FBDA6EB54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/captcha-harvester-ios/captcha-harvester-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/captcha-harvester-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/captcha-harvester-ios/captcha-harvester-ios.modulemap";
+				PRODUCT_NAME = captcha_harvester_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE4F5FE88274D812D17C2F427717CFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A87F12D9DA4E0195A2F32A7A4D002D /* Pods-captcha-harvester-ios_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-captcha-harvester-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-captcha-harvester-ios_Example/Pods-captcha-harvester-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_captcha_harvester_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5E9C6DD0D912140A7A7FDAE7CEAA14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620EDAC779FA95EAF0ED653BF4A5E590 /* Pods-captcha-harvester-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-captcha-harvester-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-captcha-harvester-ios_Example/Pods-captcha-harvester-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_captcha_harvester_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C259BC3D7A4E6C8C8730CD15A88F4019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4873BAA8E192D508069486079EFDCB71 /* Pods-captcha-harvester-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-captcha-harvester-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-captcha-harvester-ios_Tests/Pods-captcha-harvester-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_captcha_harvester_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DE6D1736DD4AB42B885DF8C8532C3B /* Build configuration list for PBXNativeTarget "captcha-harvester-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E36F7242DB778870EB9579125C25670 /* Debug */,
+				74B42A9B7B683D5488C328FBDA6EB54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5907220E85B6C6ED686DDFB0B702509 /* Build configuration list for PBXNativeTarget "Pods-captcha-harvester-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ABD44867E8D254FDF8350FFE5E5B76 /* Debug */,
+				C259BC3D7A4E6C8C8730CD15A88F4019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD82F28592C982A3E8F1EC83752111 /* Build configuration list for PBXNativeTarget "Pods-captcha-harvester-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E9C6DD0D912140A7A7FDAE7CEAA14B /* Debug */,
+				AE4F5FE88274D812D17C2F427717CFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

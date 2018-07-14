@@ -1,0 +1,6 @@
+framework module Pods_captcha_harvester_ios_Tests {
+  umbrella header "Pods-captcha-harvester-ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

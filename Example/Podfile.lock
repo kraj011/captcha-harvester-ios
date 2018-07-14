@@ -1,0 +1,16 @@
+PODS:
+  - captcha-harvester-ios (0.1.0)
+
+DEPENDENCIES:
+  - captcha-harvester-ios (from `../`)
+
+EXTERNAL SOURCES:
+  captcha-harvester-ios:
+    :path: ../
+
+SPEC CHECKSUMS:
+  captcha-harvester-ios: b44d66d6c373fe9ac098b6f2bcf395cf934c0993
+
+PODFILE CHECKSUM: 8970491a5e940696b712f8b3a849037fd3087b75
+
+COCOAPODS: 1.4.0

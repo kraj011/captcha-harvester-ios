@@ -1,0 +1,22 @@
+{
+  "name": "captcha-harvester-ios",
+  "version": "0.1.0",
+  "summary": "A short description of captcha-harvester-ios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kraj011/captcha-harvester-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kraj011": "davidkrajewski@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/kraj011/captcha-harvester-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "captcha-harvester-ios/Classes/**/*"
+}

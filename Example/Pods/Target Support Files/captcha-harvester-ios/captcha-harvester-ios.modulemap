@@ -1,0 +1,6 @@
+framework module captcha_harvester_ios {
+  umbrella header "captcha-harvester-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
