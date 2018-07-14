@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BECED4CBCF1B21DB4428DF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0BECED4CBCF1B21DB4428DF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1723C014B916A68EC0ADD35A /* Pods-captcha-harvester-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-captcha-harvester-ios_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-captcha-harvester-ios_Example/Pods-captcha-harvester-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1B2ACE8BD26C05FDAD90C9CA /* Pods-captcha-harvester-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-captcha-harvester-ios_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-captcha-harvester-ios_Example/Pods-captcha-harvester-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4485759C4AC7B0A79D56EF04 /* Pods-captcha-harvester-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-captcha-harvester-ios_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-captcha-harvester-ios_Tests/Pods-captcha-harvester-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		55FE3830A84507DC97401D91 /* captcha-harvester-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "captcha-harvester-ios.podspec"; path = "../captcha-harvester-ios.podspec"; sourceTree = "<group>"; };
+		55FE3830A84507DC97401D91 /* captcha-harvester-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "captcha-harvester-ios.podspec"; path = "../captcha-harvester-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* captcha-harvester-ios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "captcha-harvester-ios_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* captcha-harvester-ios_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "captcha-harvester-ios_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AA80E917CFF2AED702582973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA80E917CFF2AED702582973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D16C1D8E2F1433A01D98EBF6 /* Pods_captcha_harvester_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_captcha_harvester_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFBF45C165BE8058AD57EBB /* Pods-captcha-harvester-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-captcha-harvester-ios_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-captcha-harvester-ios_Tests/Pods-captcha-harvester-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E189D4DD3D1A76C71B391DB7 /* Pods_captcha_harvester_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_captcha_harvester_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };

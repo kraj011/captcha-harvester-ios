@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		27108A70CDCD7020D63BA735192D6DFE /* captcha-harvester-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC1BCF0F58764B64E744F1144CB02C /* captcha-harvester-ios-dummy.m */; };
 		51C55BD8E0BC9B7F8F7D46ECB9A20525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5280F90B19BC3443FF654C5F2512E97C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */; };
+		5B59E83120FA464F0029DDAA /* CaptchaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59E83020FA464F0029DDAA /* CaptchaExtension.swift */; };
+		5B59E83320FA46810029DDAA /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59E83220FA46810029DDAA /* Tokens.swift */; };
 		69241D25FBD5451BD970B78EB84F46BA /* Pods-captcha-harvester-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0D6D11E371160D8758B9A42475B4D4 /* Pods-captcha-harvester-ios_Tests-dummy.m */; };
 		6F295744A0C787A16CFAF9CFE1697D05 /* Pods-captcha-harvester-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377180BD94E59BBF70A52D57DE9D70D /* Pods-captcha-harvester-ios_Example-dummy.m */; };
 		7896ABFCFD83DB61DF2980BD8B624C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -33,34 +34,35 @@
 		001C04B0412CEA37190D6EE298D565D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19CC1BCF0F58764B64E744F1144CB02C /* captcha-harvester-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "captcha-harvester-ios-dummy.m"; sourceTree = "<group>"; };
 		1D5202C68FED03C76C29F089D8E4FF75 /* captcha-harvester-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "captcha-harvester-ios-umbrella.h"; sourceTree = "<group>"; };
-		2186E19E8F62D1A853ACE6D3E41652F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2186E19E8F62D1A853ACE6D3E41652F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3377180BD94E59BBF70A52D57DE9D70D /* Pods-captcha-harvester-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-captcha-harvester-ios_Example-dummy.m"; sourceTree = "<group>"; };
 		3D72DAB7129AFEF55A4125EB5E74DAA8 /* captcha-harvester-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "captcha-harvester-ios.modulemap"; sourceTree = "<group>"; };
 		42A87F12D9DA4E0195A2F32A7A4D002D /* Pods-captcha-harvester-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43F2FB409F76D15F81CB4A6A3814E8C7 /* captcha_harvester_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = captcha_harvester_ios.framework; path = "captcha-harvester-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		444A03D05E16A898D86372B326FEDD1D /* captcha-harvester-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "captcha-harvester-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43F2FB409F76D15F81CB4A6A3814E8C7 /* captcha_harvester_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = captcha_harvester_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444A03D05E16A898D86372B326FEDD1D /* captcha-harvester-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "captcha-harvester-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "captcha-harvester-ios.xcconfig"; sourceTree = "<group>"; };
 		4873BAA8E192D508069486079EFDCB71 /* Pods-captcha-harvester-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F805D59454AEEDA098DA15C837C32E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56943AF93C35294BC5E870CDC7ADAEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		56943AF93C35294BC5E870CDC7ADAEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		589CCF27223B2217AF9B6EE0871474F5 /* captcha-harvester-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "captcha-harvester-ios-prefix.pch"; sourceTree = "<group>"; };
+		5B59E83020FA464F0029DDAA /* CaptchaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptchaExtension.swift; path = "captcha-harvester-ios/Classes/CaptchaExtension.swift"; sourceTree = "<group>"; };
+		5B59E83220FA46810029DDAA /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tokens.swift; path = "captcha-harvester-ios/Classes/Tokens.swift"; sourceTree = "<group>"; };
 		620EDAC779FA95EAF0ED653BF4A5E590 /* Pods-captcha-harvester-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		622C6A7D9908A64C33EE91E887242DBB /* Pods-captcha-harvester-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		683F4C178497F5B8896BE6D76D2341CD /* Pods_captcha_harvester_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_captcha_harvester_ios_Example.framework; path = "Pods-captcha-harvester-ios_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683F4C178497F5B8896BE6D76D2341CD /* Pods_captcha_harvester_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_captcha_harvester_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDC05A51D7BBC41BE58F2A3582C2646 /* Pods-captcha-harvester-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Tests-resources.sh"; sourceTree = "<group>"; };
 		7B305C0FE8AC8A0715DF2E1D6A92316D /* Pods-captcha-harvester-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-captcha-harvester-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		929F5AEF1AA01AB5A5B3F481F001029E /* Pods-captcha-harvester-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-captcha-harvester-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D5A470DB95FA5DD50121BDD07B188B7 /* Pods-captcha-harvester-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-captcha-harvester-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A29CA7D7C3DA3820AB1B7AC55526A3BD /* Pods-captcha-harvester-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A9A1DE46B70BE331146AF36C01B7F09E /* Pods-captcha-harvester-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-captcha-harvester-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ABADEEE0C497ED90EDD8ABF3D7A51A0A /* Pods-captcha-harvester-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-captcha-harvester-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BAA70AD8E4391CB68C0700DC33D8964B /* Pods-captcha-harvester-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-captcha-harvester-ios_Tests.modulemap"; sourceTree = "<group>"; };
 		BC04A8FF7269074046225022350159AD /* Pods-captcha-harvester-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-captcha-harvester-ios_Example-umbrella.h"; sourceTree = "<group>"; };
-		C030BC2062816EB22D069419C99E2528 /* Pods_captcha_harvester_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_captcha_harvester_ios_Tests.framework; path = "Pods-captcha-harvester-ios_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C030BC2062816EB22D069419C99E2528 /* Pods_captcha_harvester_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_captcha_harvester_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C375E07D67212536275B71114AE049F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "captcha-harvester-ios/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		DA9D2DB45F5DDD9EFCEE20F41DDA100C /* Pods-captcha-harvester-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-captcha-harvester-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF0D6D11E371160D8758B9A42475B4D4 /* Pods-captcha-harvester-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-captcha-harvester-ios_Tests-dummy.m"; sourceTree = "<group>"; };
 		E074D9DCAE2A7B7263542D411EEEB872 /* Pods-captcha-harvester-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-captcha-harvester-ios_Example-resources.sh"; sourceTree = "<group>"; };
@@ -151,9 +153,10 @@
 		92820FF080037928EB3792DACEE5A8CB /* captcha-harvester-ios */ = {
 			isa = PBXGroup;
 			children = (
-				CFC31A156189DC455EFAE0A4E5D29ADC /* ReplaceMe.swift */,
 				DEB6AB7A9581CA7B9AC469F2381AC9A5 /* Pod */,
 				17CC506568B79B6CE53E8405A9CCE020 /* Support Files */,
+				5B59E83020FA464F0029DDAA /* CaptchaExtension.swift */,
+				5B59E83220FA46810029DDAA /* Tokens.swift */,
 			);
 			name = "captcha-harvester-ios";
 			path = ../..;
@@ -310,6 +313,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					01152ECA105D2F93BF7376B54809D3A4 = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -335,8 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B59E83120FA464F0029DDAA /* CaptchaExtension.swift in Sources */,
 				27108A70CDCD7020D63BA735192D6DFE /* captcha-harvester-ios-dummy.m in Sources */,
-				5280F90B19BC3443FF654C5F2512E97C /* ReplaceMe.swift in Sources */,
+				5B59E83320FA46810029DDAA /* Tokens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -498,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45619C9A3FB0F7DB3D4F60028120CC25 /* captcha-harvester-ios.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
