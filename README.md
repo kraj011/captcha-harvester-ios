@@ -21,7 +21,7 @@ pod 'captcha-harvester-ios'
 
 ## Usage
 
-To begin, import WebKit and create a WebKit View inside your view controller file. In your code where you would like to display the captcha harvester (Leave in view did load function if you are testing) place the following code:
+To begin, import captcha_harvester_ios and WebKit and create a WebKit View inside your view controller file. In your code where you would like to display the captcha harvester (Leave in view did load function if you are testing) place the following code:
 ```swift
 self.webView.displayCaptcha(sitekey: "YourSitekey", baseUrl: "Base URL For the Captcha", googleLogin: false)
 ```
