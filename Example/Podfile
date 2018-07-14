@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'captcha-harvester-ios_Example' do
+  pod 'captcha-harvester-ios', :path => '../'
+
+  target 'captcha-harvester-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
