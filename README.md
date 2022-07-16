@@ -33,14 +33,14 @@ Tokens.tokens
 ```
 the tokens array can be modified to your needs from anywhere in your code.
 
-If you have any questions, feel free to email me (davidkrajewski@yahoo.com) or DM me on twitter (@DynxSZN).
+If you have any questions, feel free to email me (dkrajews@andrew.cmu.edu).
 
 ## License
 
 captcha-harvester-ios is available under the MIT license. See the LICENSE file for more info.
 
 ## Author
-David Krajewski, davidkrajewski@yahoo.com
+David Krajewski, dkrajews@andrew.cmu.edu
 
 ## Thanks
 
